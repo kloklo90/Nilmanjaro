@@ -51,7 +51,7 @@ header.carousel {
 .navbar-inverse {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif;;
     background-color: #0018D1;
-    border-color: #0018D1;
+    border-color: #ffffff;
 }
 
 .navbar-inverse .navbar-nav>li>a {
@@ -64,6 +64,16 @@ header.carousel {
     color: #ffffff;
 }
 
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: #0018D1;
+    background-color: #fff;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: #0018D1;
+    background-color: #fff;
+}
 /* 404 Page Styles */
 
 .error-404 {

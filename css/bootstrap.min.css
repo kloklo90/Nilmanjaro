@@ -6,7 +6,7 @@
 /*# sourceMappingURL=bootstrap.min.css.map */
 
 a {
-    color: #ffffff;
+    color: #777;
     font-weight: bold;
     text-decoration: none;
 }
@@ -16,4 +16,3 @@ a:focus, a:hover {
     font-weight: bold; 
     text-decoration: underline;
 }
-
